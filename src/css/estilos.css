@@ -60,14 +60,15 @@ main .servico .imagem {
 .botoes {
   background-color: rgba(0, 0, 0, 0.3);
   position: fixed;
-  top: 0;
+  top: -150px;
   right: 0;
   width: 180px;
+  height: ;
+  min-height: 150vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
   gap: 16px;
 }
 
@@ -80,6 +81,31 @@ main .servico .imagem {
   transition: transform 0.3s ease;
   border-radius: 50%;
 }
+.botoes .abrirServico{
+  background-color: transparent; 
+  color: #ffffff; 
+  border: none; 
+  padding: px 20px; 
+  text-align: center; 
+  font-size: 13px;
+  cursor: pointer; 
+  border-radius: 10px; 
+  width: 180px;
+  height: 50px;
+  display: 90px; 
+  align-items: center;
+  margin-top: 200px;
+ 
+  
+
+}
+.botoes .abrirServico:hover {
+  background-color: #C1B070;
+  color: #464646; 
+}
+  
+
+
 
 .botoes .botao img {
   border-radius: 50%;
@@ -105,4 +131,5 @@ main .servico .imagem {
 .botoes .botao.informatica.selecionado {
   box-shadow: 0 0 10px #e4309a;
 }
+
 

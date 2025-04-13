@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./src/css/estilos.css">
 
     <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <script src="./src/js/index.js" defer></script>
 </head>
 
 <body>
@@ -84,9 +86,20 @@
                 <img src="./src/imagens/4.2.informatica.botao.png" alt="Ícone informatica" />
             </button>
         </li>
+        <li>
+            <button class = "botao abrirServico"id="abrirServico">ABRIR CHAMADO</button>
+
+        </li>  
+        
     </ul>
 
-    <script src="./src/js/index.js"></script>
+        <script src="./src/js/index.js"></script>   
+
+<script>
+    document.getElementById("abrirServico").addEventListener("click", function() {
+        window.location.href = "https://jsoluocoes.milldesk.com";
+    });
+</script>
 
 </body>
 
