@@ -63,7 +63,7 @@ main .servico .imagem {
   top: -150px;
   right: 0;
   width: 180px;
-  height: ;
+  height: auto ;
   min-height: 150vh;
   display: flex;
   flex-direction: column;
